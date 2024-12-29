@@ -1,5 +1,35 @@
 # Changelog
 
+## 1.8.13
+
+### Patch Changes
+
+- [`0693cd2`](https://github.com/mdx-js/mdx-analyzer/commit/0693cd24b8c2857d71ab1a49970f8e4e216fb1c2) Thanks [@remcohaszing](https://github.com/remcohaszing)! - Update dev dependencies
+
+## 1.8.12
+
+### Patch Changes
+
+- [`d73050c`](https://github.com/mdx-js/mdx-analyzer/commit/d73050c19d9a17330005de2eaf3173c94d8efccb) Thanks [@remcohaszing](https://github.com/remcohaszing)! - Update the TextMate grammar
+
+## 1.8.11
+
+### Patch Changes
+
+- [#478](https://github.com/mdx-js/mdx-analyzer/pull/478) [`3b135e8`](https://github.com/mdx-js/mdx-analyzer/commit/3b135e82607f0d5d19f9cf27e6bb465543c7c841) Thanks [@remcohaszing](https://github.com/remcohaszing)! - Use an asterisk to toggle emphasis
+
+- [#479](https://github.com/mdx-js/mdx-analyzer/pull/479) [`feab086`](https://github.com/mdx-js/mdx-analyzer/commit/feab0867b715e966f7fc0ceec42fdccca1e316b8) Thanks [@remcohaszing](https://github.com/remcohaszing)! - Update the MDX grammar
+
+- [#477](https://github.com/mdx-js/mdx-analyzer/pull/477) [`ed87d22`](https://github.com/mdx-js/mdx-analyzer/commit/ed87d226bdc18afb60332bc55f0fd687efd98d42) Thanks [@remcohaszing](https://github.com/remcohaszing)! - Use two tildes to toggle delete syntax
+
+## 1.8.10
+
+### Patch Changes
+
+- [#460](https://github.com/mdx-js/mdx-analyzer/pull/460) [`163f4bc`](https://github.com/mdx-js/mdx-analyzer/commit/163f4bc8368122fb97ff1d7c7a52f9edecd265a8) Thanks [@johnsoncodehk](https://github.com/johnsoncodehk)! - Update to Volar 2.4
+
+- [#469](https://github.com/mdx-js/mdx-analyzer/pull/469) [`f77645b`](https://github.com/mdx-js/mdx-analyzer/commit/f77645b84387a01ae5f989c2bf67ff13377d6bca) Thanks [@remcohaszing](https://github.com/remcohaszing)! - Update the MDX grammar
+
 ## 1.8.9
 
 ### Patch Changes

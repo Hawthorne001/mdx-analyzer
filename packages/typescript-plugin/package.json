@@ -1,6 +1,6 @@
 {
   "name": "@mdx-js/typescript-plugin",
-  "version": "0.0.4",
+  "version": "0.0.8",
   "type": "module",
   "description": "A TypeScript plugin to support language features in MDX files",
   "repository": {
@@ -13,9 +13,14 @@
   "author": "Remco Haszing <remcohaszing@gmail.com>",
   "funding": "https://opencollective.com/unified",
   "license": "MIT",
-  "exports": "./index.cjs",
+  "main": "./lib/index.cjs",
+  "exports": {
+    "types": "./types/index.d.cts",
+    "default": "./lib/index.cjs"
+  },
   "files": [
-    "*.cjs"
+    "lib",
+    "types"
   ],
   "keywords": [
     "IntelliSense",
@@ -29,14 +34,14 @@
     "test": "npm pack && npm run test-api"
   },
   "dependencies": {
-    "@mdx-js/language-service": "0.5.7",
-    "@volar/typescript": "~2.3.0",
+    "@mdx-js/language-service": "0.6.2",
+    "@volar/typescript": "~2.4.0",
     "load-plugin": "^6.0.0",
     "remark-frontmatter": "^5.0.0",
     "remark-gfm": "^4.0.0"
   },
   "devDependencies": {
-    "@types/node": "^20.0.0"
+    "@types/node": "^22.0.0"
   },
   "sideEffects": false
 }
